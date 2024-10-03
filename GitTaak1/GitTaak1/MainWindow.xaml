@@ -5,20 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GitTaak1"
         mc:Ignorable="d"
-        Title="Git Taak 1 - Freddy Janssen - 1ProB" Height="450" Width="800">
+        Title="Git Taak 1 - Freddy Janssen - 1ProB" Height="450" Width="800" Background="LightGray">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="61*"/>
             <ColumnDefinition Width="19*"/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="31,39,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
-        <Image x:Name="pxlImage" HorizontalAlignment="Left" Height="152" Margin="35,10,0,0" VerticalAlignment="Top" Width="151" Grid.Column="1" Source="/PXL.png" MouseEnter="pxlImage_MouseEnter" MouseLeave="pxlImage_MouseLeave" Stretch="UniformToFill"/>
+        <Image x:Name="pxlImage" HorizontalAlignment="Left" Height="152" Margin="35,10,0,0" VerticalAlignment="Top" Width="151" Grid.Column="1" Source="/PXL.png" MouseEnter="pxlImage_MouseEnter" MouseLeave="pxlImage_MouseLeave" Stretch="UniformToFill" MouseLeftButtonDown="pxlImage_MouseLeftButtonDown"/>
         <Image x:Name="roodImage" HorizontalAlignment="Left" Height="100" Margin="83,86,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png" Stretch="Fill" MouseEnter="roodImage_MouseEnter" MouseLeave="roodImage_MouseLeave" MouseLeftButtonDown="roodImage_MouseLeftButtonDown"/>
         <Image x:Name="groenImage" HorizontalAlignment="Left" Height="100" Margin="83,222,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" Stretch="Fill" MouseEnter="groenImage_MouseEnter" MouseLeave="groenImage_MouseLeave" MouseLeftButtonDown="groenImage_MouseLeftButtonDown"/>
         <Image x:Name="geelImage" HorizontalAlignment="Center" Height="100" Margin="0,86,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" Stretch="Fill" MouseEnter="geelImage_MouseEnter" MouseLeave="geelImage_MouseLeave" MouseLeftButtonDown="geelImage_MouseLeftButtonDown"/>
         <Image x:Name="blauwImage" HorizontalAlignment="Center" Height="100" Margin="0,222,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" Stretch="Fill" MouseEnter="blauwImage_MouseEnter" MouseLeave="blauwImage_MouseLeave" MouseLeftButtonDown="blauwImage_MouseLeftButtonDown"/>
         <Label Content="Kleurcode:" HorizontalAlignment="Left" Margin="31,344,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="colorTextBox" HorizontalAlignment="Left" Margin="102,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Informatie:" HorizontalAlignment="Left" Margin="31,375,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="informatieTextBox" HorizontalAlignment="Left" Margin="102,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
 
     </Grid>
 </Window>
