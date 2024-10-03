@@ -71,5 +71,25 @@ namespace GitTaak1
         {
             this.Background = new SolidColorBrush(Colors.LightGray);
         }
+
+        private void roodImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            colorTextBox.Text = "#FF0000";
+        }
+
+        private void geelImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            colorTextBox.Text = "#FFFF00";
+        }
+
+        private void groenImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            colorTextBox.Text = "#008000";
+        }
+
+        private void blauwImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            colorTextBox.Text = "#0000FF";
+        }
     }
 }
