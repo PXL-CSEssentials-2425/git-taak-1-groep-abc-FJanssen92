@@ -12,6 +12,7 @@
             <ColumnDefinition Width="19*"/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="31,39,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
+        <Image x:Name="pxlImage" HorizontalAlignment="Left" Height="107" Margin="42,10,0,0" VerticalAlignment="Top" Width="144" Grid.Column="1" Source="/PXL.png"/>
 
     </Grid>
 </Window>
